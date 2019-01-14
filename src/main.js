@@ -5,8 +5,8 @@ const readline = require('readline').createInterface({
   });
 
 console.log('Guess the word by guessing letter by letter..');
-
-let wordToBeGuessed = 'SHEMEEM';
+let hint = 'a list of questions.'
+let wordToBeGuessed = 'QUESTIONNAIRE';
 let wordToBeGuessedArray = wordToBeGuessed.split('');
 
 let abcd = ['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S',
@@ -16,6 +16,7 @@ let dash = '---'
 let abcdTemp = abcd;
 let dashArray = prepareDashArray(wordToBeGuessedArray.length);
 function main(){
+    console.log('Hint : '+ hint);
     displayArray(abcdTemp);
     displayArray(dashArray);
     readInput();
