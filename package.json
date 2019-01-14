@@ -1,0 +1,14 @@
+{
+  "name": "guess-word",
+  "version": "1.0.0",
+  "description": "This project is for updating the TOM description as provided like in the excel file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shemeem SP",
+  "license": "ISC",
+  "dependencies": {
+    "readline": "^1.3.0"
+  }
+}
